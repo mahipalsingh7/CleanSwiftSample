@@ -19,7 +19,7 @@
 		A125726E22D507E80033A0D8 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A125726D22D507E80033A0D8 /* SideMenuVC.swift */; };
 		A125727222D50F190033A0D8 /* EmployeeIntractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A125727122D50F190033A0D8 /* EmployeeIntractor.swift */; };
 		A125727422D50F260033A0D8 /* EmployeePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A125727322D50F260033A0D8 /* EmployeePresenter.swift */; };
-		A125727822D523BF0033A0D8 /* EmployeeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A125727722D523BF0033A0D8 /* EmployeeDetailVC.swift */; };
+		A1A43A7B22E1CB5A000B830D /* EmployeeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A43A7A22E1CB5A000B830D /* EmployeeDetailVC.swift */; };
 		DCF514E62EDA29D82EEEFE9B /* Pods_CleanSwiftArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E261C7DB42D63B5A898F59C /* Pods_CleanSwiftArchitecture.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +39,7 @@
 		A125726D22D507E80033A0D8 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
 		A125727122D50F190033A0D8 /* EmployeeIntractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeIntractor.swift; sourceTree = "<group>"; };
 		A125727322D50F260033A0D8 /* EmployeePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeePresenter.swift; sourceTree = "<group>"; };
-		A125727722D523BF0033A0D8 /* EmployeeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmployeeDetailVC.swift; path = ../../../../../Documents/EmployeeDetailVC.swift; sourceTree = "<group>"; };
+		A1A43A7A22E1CB5A000B830D /* EmployeeDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetailVC.swift; sourceTree = "<group>"; };
 		C3A9EA2DEB7D9944023EB7B3 /* Pods-CleanSwiftArchitecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanSwiftArchitecture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanSwiftArchitecture/Pods-CleanSwiftArchitecture.debug.xcconfig"; sourceTree = "<group>"; };
 		ED3E5322551CCA058058D862 /* Pods-CleanSwiftArchitecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanSwiftArchitecture.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanSwiftArchitecture/Pods-CleanSwiftArchitecture.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,17 +145,17 @@
 		A125727522D523200033A0D8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A1A43A7922E1CB5A000B830D /* EmployeeDetail */,
 				A125726D22D507E80033A0D8 /* SideMenuVC.swift */,
 				A125726A22D5077C0033A0D8 /* EmployeeListController */,
-				A125727622D5239D0033A0D8 /* EmployeeDetail */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		A125727622D5239D0033A0D8 /* EmployeeDetail */ = {
+		A1A43A7922E1CB5A000B830D /* EmployeeDetail */ = {
 			isa = PBXGroup;
 			children = (
-				A125727722D523BF0033A0D8 /* EmployeeDetailVC.swift */,
+				A1A43A7A22E1CB5A000B830D /* EmployeeDetailVC.swift */,
 			);
 			path = EmployeeDetail;
 			sourceTree = "<group>";
@@ -293,7 +293,7 @@
 				A125726E22D507E80033A0D8 /* SideMenuVC.swift in Sources */,
 				A125727422D50F260033A0D8 /* EmployeePresenter.swift in Sources */,
 				A125726022D4FFD10033A0D8 /* Employee.swift in Sources */,
-				A125727822D523BF0033A0D8 /* EmployeeDetailVC.swift in Sources */,
+				A1A43A7B22E1CB5A000B830D /* EmployeeDetailVC.swift in Sources */,
 				A125727222D50F190033A0D8 /* EmployeeIntractor.swift in Sources */,
 				A125726922D504B50033A0D8 /* ApiNames.swift in Sources */,
 				A125724C22D4FC130033A0D8 /* AppDelegate.swift in Sources */,
